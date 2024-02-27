@@ -1,0 +1,244 @@
+<html>
+    <head>
+        <title>
+            face of doremon
+        </title>
+        <style>
+            .outerface{
+                background-color: blue;
+                width: 400px;
+                height: 400px;
+                border: 2px solid white;
+                border-radius: 500px 500px 450px 450px;
+                display: flex;
+                justify-content: center;
+                flex-direction: row;
+                align-content: stretch;
+                align-items: flex-end;
+            }
+            .innerface{
+                background-color: rgb(255, 255, 255);
+                width: 320px;
+                height: 300px;
+                border: 2px solid black;
+                border-radius: 500px 500px 410px 410px;
+                display: flex;
+                justify-content: flex-start;
+                align-content: center;
+                flex-wrap: wrap;
+                flex-direction: column;
+                align-items: center;
+            }
+            .eyes{
+                background-color: white;
+                border: 2px solid black;
+                width: 80px;
+                height: 140px;
+                border-radius: 70%;
+                text-align: center;
+                margin-top: -50px;
+                flex-wrap: wrap;
+                align-content: center;
+                display: flex;
+            }
+            .eyelence:hover{
+                transform: rotateX(90deg);
+                transition: 1s;
+            }
+            .eyelence{
+                background-color: black;
+                width: 35px;
+                height: 35px;
+                border-radius: 70%;
+                flex-wrap: wrap;
+                align-content: center;
+                text-align: center;
+                display: flex;
+                justify-content: center;
+            }
+            .eyepuple{
+                background-color: white;
+                width: 50%;
+                height: 50%;
+                border-radius: 70%;
+                text-align: center;
+                display: flex;
+                justify-content: center;
+                border: 1px solid black;
+            }
+            .left{
+                flex-direction: row-reverse;
+            }
+            .right{
+                flex-direction: row;
+            }
+            .noseline{
+                width: 3px;
+                height: 80px;
+                background-color: black;
+            }
+            #m1{
+                transform: rotate(26deg);
+            }
+            #m2{
+                transform: rotate(-26deg);
+            }
+            #m5{
+                transform: rotate(154deg);
+            }
+            #m6{
+                transform: rotate(-154deg);
+            }
+            .nose{
+                width: 35px;
+                height: 30px;
+                margin-top: -30px;
+                background-color: rgb(255, 0, 0);
+                border-radius: 100%;
+                border: 1px solid black;
+                display: flex;
+            }
+            .nosepack{
+                display: flex;
+            }
+            .mouth{
+                width: 200px;
+                height: 80px;
+                border: 3px solid black;
+                border-top:0px;
+                background-color: rgba(255, 0, 0, 0.87);
+                border-radius: 0% 0px 400px 400px;
+                display: flex;
+                flex-direction: column-reverse;
+                align-content: space-around;
+                justify-content: flex-start;
+                align-items: center;
+            }
+            .mouthline{
+                width: 250px;
+                height: 30px;
+                border: 2px solid black;
+                display: flex;
+                margin-top: -30px;
+                /* background-color: rgba(255, 0, 0, 0.87); */
+                border-top: 0px;
+                border-radius: 0% 0px 400px 400px;
+
+            }
+            .tounge{
+                background-color: rgba(218, 5, 5, 0.685);
+                width: 100px;
+                height: 50px;
+                margin: -3%;
+                display: flex;
+                border: 2px solid black;
+                border-top: 2px solid black;
+                border-bottom: 1px;
+                margin-bottom: 0.3%;
+                /* box-shadow: 20px blue; */
+                border-radius: 130px 130px 20px 20px ;
+                flex-direction: column-reverse;
+            }
+            .containerm1{
+                width: 300px;
+                height: 2px;
+                display: flex;
+            }
+            .containerm2{
+                width: 300px;
+                height: 2px;
+                display: flex;
+            }
+            .containerm3{
+                width: 300px;
+                height: 2px;
+                display: flex;
+            }
+            .m{
+                width: 45%;
+                height: 2px;
+                display: block;
+                background-color: black;
+                margin-top: -180px;
+                /* border: 2px solid white; */
+            }
+            .m2{
+                width: 45%;
+                height: 2px;
+                display: block;
+                background-color: black;
+                margin-top: -145px;
+                /* border: 2px solid white; */
+            }
+            .m3{
+                width: 40%;
+                height: 2px;
+                display: block;
+                background-color: black;
+                margin-top: -110px;
+                /* border: 2px solid white; */
+            }
+        </style>
+    </head>
+    <body>
+        <div class="outerface">
+            <div class="innerface">
+                <div style="display: flex;height: 100px;">
+                    <div class="eyes left">
+                        <div class="eyelence left">
+                            <div class="eyepuple">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="eyes ">
+                        <div class="eyelence">
+                            <div class="eyepuple"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="nose"></div>
+                <div class="nosepack">
+                    <!-- <div id="m1"></div>
+                    <div id="m2"></div> -->
+                    <div class="noseline"></div>
+                    <!-- <div id="m3"></div>
+                    <div id="m4"></div> -->
+                </div>
+                <div class="mouthline">
+
+                </div>
+                <div class="mouth">
+                    <div class="tounge">
+
+                    </div>
+                </div>
+                <div class="containerm1">
+                    <div class="m" id="m1"></div>
+                    <div style="width: 20%;"></div>
+                    <div class="m" id="m2"></div>
+                </div>
+                <div class="containerm2">
+                    <div class="m2" id="m3"></div>
+                    <div style="width: 30%;"></div>
+                    <div class="m2" id="m4"></div>
+                </div>
+                <div class="containerm3">
+                    <div class="m3" id="m5"></div>
+                    <div style="width: 20%;"></div>
+                    <div class="m3" id="m6"></div>
+                </div>
+                        
+        </div>
+        </div>
+        
+        <!-- <button onclick="move()">left</button>
+        <button>right</button>
+        <script>
+            function move()
+            {
+                let eyelence=document.getElementsByClassName("eyes");
+                
+            }
+        </script> -->
+    </body>
+</html>
